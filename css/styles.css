@@ -2,6 +2,9 @@
   --color-brand-light: #2b7fff;
   --color-brand-dark: #011c44;
   --color-text-light: #ffffff;
+  --color-text-dark: #000000;
+  --color-text-consultation: #4a4a4a;
+  --color-text-date: #747272;
 }
 
 /* Base */
@@ -26,11 +29,11 @@ ul {
 }
 
 /* Link */
-.link {
+.header-link {
   color: var(--color-brand-dark);
 }
 
-.link:hover {
+.header-link:hover {
   color: var(--color-brand-light);
 }
 /* Hero section */
@@ -38,7 +41,30 @@ ul {
   color: var(--color-brand-light);
 }
 
-/* About us section */
+.free-consultation {
+  color: var(--color-text-consultation);
+}
+
+/* All section */
 .section-title .accent {
   color: var(--color-brand-light);
+}
+
+/* Advantages section */
+.text-advantages {
+  color: var(--color-text-dark);
+}
+
+/* Our products section */
+.text-products {
+  color: var(--color-text-light);
+}
+
+/* Footer */
+.footer-link {
+  color: var(--color-text-light);
+}
+
+.date {
+  color: var(--color-text-date);
 }
