@@ -10,6 +10,7 @@
 /* Base */
 body {
   color: var(--color-brand-dark);
+  font-family: Roboto, sans-serif;
 }
 ul {
   list-style-type: none;
@@ -23,14 +24,20 @@ ul {
   border: 2px solid var(--color-brand-light);
   cursor: pointer;
 }
-/* .button:hover { 
+.button:hover {
   background-color: transparent;
   color: var(--color-brand-dark);
-}*/
+}
 
 /* Link */
 .header-link {
   color: var(--color-brand-dark);
+  text-decoration: none;
+}
+
+.footer-link {
+  color: var(--color-text-light);
+  text-decoration: none;
 }
 
 .header-link:hover {
@@ -39,6 +46,8 @@ ul {
 /* Hero section */
 .hero-title {
   color: var(--color-brand-light);
+  font-family: Play, sans-serif;
+  text-transform: capitalize;
 }
 
 .free-consultation {
@@ -48,6 +57,20 @@ ul {
 /* All section */
 .section-title .accent {
   color: var(--color-brand-light);
+}
+
+.section-title {
+  font-family: Play, sans-serif;
+  text-align: center;
+}
+
+/* About us section */
+#about-us span {
+  text-transform: capitalize;
+}
+
+#about-us h2 {
+  text-align: left;
 }
 
 /* Advantages section */
@@ -61,9 +84,6 @@ ul {
 }
 
 /* Footer */
-.footer-link {
-  color: var(--color-text-light);
-}
 
 .date {
   color: var(--color-text-date);
