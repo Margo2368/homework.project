@@ -1,3 +1,17 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2");
+}
+
 :root {
   --color-brand-light: #2b7fff;
   --color-brand-dark: #011c44;
@@ -27,7 +41,7 @@ ul {
   border-radius: 32px;
   border: 2px solid var(--color-brand-light);
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 700;
 }
 .button:hover {
   background-color: transparent;
@@ -40,6 +54,11 @@ ul {
   text-decoration: none;
 }
 
+.header-link:hover {
+  color: var(--color-brand-light);
+  font-weight: 700;
+}
+
 .footer-link {
   color: var(--color-text-light);
   text-decoration: none;
@@ -47,10 +66,19 @@ ul {
   line-height: 1.2;
 }
 
-.header-link:hover {
+.footer-link:hover {
   color: var(--color-brand-light);
   font-weight: 700;
 }
+
+.address-link {
+  color: var(--color-text-light);
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.2;
+  font-style: normal;
+}
+
 /* Hero section */
 .hero-title {
   color: var(--color-brand-light);
@@ -95,7 +123,7 @@ ul {
 }
 
 .accent-weight {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* Advantages section */
