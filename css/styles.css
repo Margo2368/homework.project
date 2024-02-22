@@ -13,7 +13,9 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 18px;
   font-weight: 400;
+  line-height: 1.16;
 }
+
 ul {
   list-style-type: none;
 }
@@ -42,6 +44,7 @@ ul {
   color: var(--color-text-light);
   text-decoration: none;
   font-size: 16px;
+  line-height: 1.2;
 }
 
 .header-link:hover {
@@ -55,11 +58,13 @@ ul {
   text-transform: capitalize;
   font-size: 140px;
   font-weight: 700;
+  line-height: 0.8;
 }
 
 .free-consultation {
   color: var(--color-text-consultation);
   font-size: 12px;
+  line-height: 1.5;
 }
 
 /* All section */
@@ -72,6 +77,7 @@ ul {
   text-align: center;
   font-size: 64px;
   font-weight: 700;
+  line-height: 1.16;
 }
 
 /* About us section */
@@ -85,6 +91,7 @@ ul {
 
 #about-us p {
   font-size: 22px;
+  line-height: 1.7;
 }
 
 .accent-weight {
@@ -94,12 +101,14 @@ ul {
 /* Advantages section */
 .text-advantages {
   color: var(--color-text-dark);
+  line-height: 1.3;
 }
 
 /* Our products section */
 .text-products {
   color: var(--color-text-light);
   font-size: 22px;
+  line-height: 1.2;
 }
 
 /* Footer */
@@ -107,4 +116,6 @@ ul {
 .date {
   color: var(--color-text-date);
   font-size: 13px;
+  line-height: 1.15;
+  font-style: normal;
 }
