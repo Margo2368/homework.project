@@ -80,6 +80,10 @@ ul {
 }
 
 /* Hero section */
+.hero-section {
+  padding: 125px 705px 125px 205px;
+}
+
 .hero-title {
   color: var(--color-brand-light);
   font-family: Play, sans-serif;
@@ -109,15 +113,15 @@ ul {
 }
 
 /* About us section */
-#about-us span {
+.about-us span {
   text-transform: capitalize;
 }
 
-#about-us h2 {
+.about-us h2 {
   text-align: left;
 }
 
-#about-us p {
+.about-us p {
   font-size: 22px;
   line-height: 1.7;
 }
