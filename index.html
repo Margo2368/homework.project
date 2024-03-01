@@ -19,36 +19,49 @@
   <body>
     <header>
       <div class="container">
-        <nav>
-          <a href="./index.html">
-            <img src="./image/logo.svg" alt="Логотип beautyzone" />
-          </a>
-          <ul>
-            <li><a class="header-link" href="#about-us">Про нас</a></li>
-            <li><a class="header-link" href="#advantages">Чому ми</a></li>
-            <li>
-              <a class="header-link" href="#our-products">Наші процедури</a>
-            </li>
-            <li><a class="header-link" href="#contacts">Контакти</a></li>
-          </ul>
-          <ul>
-            <li>
-              <a href="tel:+380960000007">
-                <img src="./image/phone-dark.svg" alt="Іконка телефон" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="./image/facebook-dark.svg" alt="Іконка фейсбук" />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img src="./image/instagram-dark.svg" alt="Іконка інстаграм" />
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <div class="header-container">
+          <nav class="header-nav">
+            <a href="./index.html">
+              <svg class="header-logo" width="74px" height="42px">
+                <use href="./image/icons.svg#icon-logo"></use>
+              </svg>
+              <!-- <img src="./image/logo.svg" alt="Логотип beautyzone" /> -->
+            </a>
+            <ul class="header-menu">
+              <li><a class="header-link" href="#about-us">Про нас</a></li>
+              <li><a class="header-link" href="#advantages">Чому ми</a></li>
+              <li>
+                <a class="header-link" href="#our-products">Наші процедури</a>
+              </li>
+              <li><a class="header-link" href="#contacts">Контакти</a></li>
+            </ul>
+          </nav>
+          <address>
+            <ul class="header-contact">
+              <li>
+                <a href="tel:+380960000007">
+                  <svg class="header-contact-icon" width="32px" height="32px">
+                    <use href="./image/icons.svg#icon-phone"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg class="header-contact-icon" width="32px" height="32px">
+                    <use href="./image/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg class="header-contact-icon" width="32px" height="32px">
+                    <use href="./image/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
     <main>
@@ -81,28 +94,34 @@
           <img src="./image/face-after.jpeg" alt="Обличчя після процедури" />
         </div>
       </section>
-      <section id="advantages">
+      <section class="advantages" id="advantages">
         <div class="container">
           <h2 class="section-title">
             Чому люди <span class="accent">обирають нас</span>
           </h2>
           <ul class="text-advantages">
             <li>
-              <img src="./image/left.svg" alt="Іконка молекули" />
+              <svg class="advantages-icon" width="40px" height="44px">
+                <use href="./image/icons.svg#icon-advantages-left"></use>
+              </svg>
               <p>
                 Всі наші косметологи мають вищу медичну освіту та стаж роботи
                 від 5 років
               </p>
             </li>
             <li>
-              <img src="./image/middle.svg" alt="Іконка баночок" />
+              <svg class="advantages-icon" width="43px" height="33px">
+                <use href="./image/icons.svg#icon-advantages-middle"></use>
+              </svg>
               <p>
                 Використовуємо тільки професійне обладнання та косметику,
                 перевірену часом
               </p>
             </li>
             <li>
-              <img src="./image/right.svg" alt="Іконка корони" />
+              <svg class="advantages-icon" width="43px" height="36px">
+                <use href="./image/icons.svg#icon-advantages-right"></use>
+              </svg>
               <p>
                 Наша мета - підкреслити переваги та приховати недоліки, а не
                 переробити
@@ -111,7 +130,7 @@
           </ul>
         </div>
       </section>
-      <section id="our-products">
+      <section class="our-products" id="our-products">
         <div class="container">
           <h2 class="section-title">
             Наші <span class="accent">процедури</span>
@@ -144,7 +163,7 @@
           </ul>
         </div>
       </section>
-      <section id="contacts">
+      <section class="contacts" id="contacts">
         <div class="container">
           <h2 class="section-title">
             Як нас <span class="accent">знайти</span>
@@ -165,7 +184,9 @@
       <div class="container">
         <nav>
           <a href="./index.html">
-            <img src="./image/logo.svg" alt="Логотип beautyzone" />
+            <svg class="footer-logo" width="83px" height="42px">
+              <use href="./image/icons.svg#icon-logo"></use>
+            </svg>
           </a>
           <ul>
             <li><a class="footer-link" href="#about-us">Про нас</a></li>
@@ -199,17 +220,23 @@
             </li>
             <li>
               <a href="tel:+380960000007">
-                <img src="./image/phone-light.svg" alt="Іконка телефон" />
+                <svg class="footer-contact-icon" width="42px" height="42px">
+                  <use href="./image/icons.svg#icon-phone"></use>
+                </svg>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="./image/facebook-light.svg" alt="Іконка фейсбук" />
+                <svg class="footer-contact-icon" width="42px" height="42px">
+                  <use href="./image/icons.svg#icon-facebook"></use>
+                </svg>
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="./image/instagram-light.svg" alt="Іконка інстаграм" />
+                <svg class="footer-contact-icon" width="42px" height="42px">
+                  <use href="./image/icons.svg#icon-instagram"></use>
+                </svg>
               </a>
             </li>
           </ul>

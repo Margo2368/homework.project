@@ -22,7 +22,9 @@
 }
 
 /* Base */
-* {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -34,8 +36,28 @@ body {
   line-height: 1.16;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  display: inline-block;
 }
 
 .container {
@@ -88,13 +110,41 @@ ul {
   text-decoration: none;
   font-size: 16px;
   line-height: 1.2;
-  font-style: normal;
+}
+
+/* Header */
+.header-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  gap: 40px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 40px;
+}
+
+.header-menu {
+  display: flex;
+}
+
+.header-contact {
+  display: flex;
+}
+
+.header-logo {
+  fill: var(--color-brand-light);
+}
+
+.header-contact-icon {
+  fill: var(--color-brand-dark);
 }
 
 /* Hero section */
 .hero-section {
   padding: 125px 705px 125px 205px;
-  margin: 0 auto;
+  margin-bottom: 15px;
 }
 
 .hero-title {
@@ -126,6 +176,11 @@ ul {
 }
 
 /* About us section */
+.about-us {
+  margin-top: 15px;
+  margin-bottom: 176px;
+}
+
 .about-us span {
   text-transform: capitalize;
 }
@@ -144,16 +199,33 @@ ul {
 }
 
 /* Advantages section */
+.advantages {
+  margin-bottom: 96px;
+}
+
 .text-advantages {
   color: var(--color-text-dark);
   line-height: 1.3;
 }
 
+.advantages-icon {
+  fill: var(--color-brand-light);
+}
+
 /* Our products section */
+.our-products {
+  margin-bottom: 96px;
+}
+
 .text-products {
   color: var(--color-text-light);
   font-size: 22px;
   line-height: 1.2;
+}
+
+/* Contact section */
+.contacts {
+  margin-bottom: 96px;
 }
 
 /* Footer */
@@ -162,5 +234,12 @@ ul {
   color: var(--color-text-date);
   font-size: 13px;
   line-height: 1.15;
-  font-style: normal;
+}
+
+.footer-logo {
+  fill: var(--color-brand-light);
+}
+
+.footer-contact-icon {
+  fill: var(--color-text-light);
 }
