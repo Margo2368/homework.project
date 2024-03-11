@@ -34,6 +34,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.16;
+  margin: 0px;
 }
 
 h1,
@@ -76,6 +77,7 @@ a {
   cursor: pointer;
   font-weight: 700;
   padding: 16px 32px;
+  margin-bottom: 16px;
 }
 .button:hover {
   background-color: transparent;
@@ -90,7 +92,6 @@ a {
 
 .header-link:hover {
   color: var(--color-brand-light);
-  font-weight: 700;
 }
 
 .footer-link {
@@ -116,21 +117,28 @@ a {
 .header-container {
   display: flex;
   align-items: center;
-  flex-grow: 1;
   gap: 40px;
+  margin-bottom: 16px;
 }
 
 .header-nav {
   display: flex;
+  flex-grow: 1;
+  align-items: center;
   gap: 40px;
 }
 
 .header-menu {
   display: flex;
+  flex-grow: 1;
+  gap: 56px;
+  justify-content: center;
 }
 
 .header-contact {
   display: flex;
+  flex-grow: 1;
+  gap: 43px;
 }
 
 .header-logo {
@@ -143,8 +151,22 @@ a {
 
 /* Hero section */
 .hero-section {
+  background-image: url(../image/hero-background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: linear-gradient(
+    94.33deg,
+    rgb(255, 255, 255) 30.532%,
+    rgba(255, 255, 255, 0.85) 41.199%,
+    rgba(255, 255, 255, 0.19) 58.516%,
+    rgba(255, 255, 255, 0) 72.622%
+  ); */
   padding: 125px 705px 125px 205px;
   margin-bottom: 15px;
+}
+
+.hero-text {
+  margin-bottom: 16px;
 }
 
 .hero-title {
@@ -154,12 +176,15 @@ a {
   font-size: 140px;
   font-weight: 700;
   line-height: 0.8;
+  margin-bottom: 40px;
 }
 
 .free-consultation {
   color: var(--color-text-consultation);
   font-size: 12px;
   line-height: 1.5;
+  max-width: 238px;
+  padding: 0 12px;
 }
 
 /* All section */
