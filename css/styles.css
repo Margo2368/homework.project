@@ -153,6 +153,7 @@ a {
 .hero-section {
   background-image: url(../image/hero-background.jpeg);
   background-repeat: no-repeat;
+  background-position: center top;
   background-size: cover;
   /* background-image: linear-gradient(
     94.33deg,
@@ -206,6 +207,15 @@ a {
   margin-bottom: 176px;
 }
 
+.about-us-container {
+  display: flex;
+  gap: 28px;
+}
+
+.about-us-text {
+  max-width: 640px;
+}
+
 .about-us span {
   text-transform: capitalize;
 }
@@ -221,6 +231,13 @@ a {
 
 .accent-weight {
   font-weight: 700;
+}
+
+.face-before-image,
+.face-after-image {
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
 }
 
 /* Advantages section */
