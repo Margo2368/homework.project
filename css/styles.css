@@ -202,6 +202,7 @@ a {
 }
 
 /* About us section */
+
 .about-us {
   margin-top: 15px;
   margin-bottom: 176px;
@@ -209,11 +210,35 @@ a {
 
 .about-us-container {
   display: flex;
+  justify-content: space-between;
   gap: 28px;
 }
 
 .about-us-text {
   max-width: 640px;
+  margin-top: 40px;
+}
+
+.about-us-padding {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.about-us-padding:last-child {
+  padding-bottom: 0;
+}
+
+.about-us-image {
+  display: flex;
+  height: 700px;
+  width: 500px;
+  gap: 40px;
+  flex-direction: column;
+}
+
+.face-after-image {
+  display: flex;
+  align-self: flex-end;
 }
 
 .about-us span {
@@ -245,13 +270,30 @@ a {
   margin-bottom: 96px;
 }
 
-.text-advantages {
+.advantages-list {
+  display: flex;
+  gap: 56px;
+  flex-wrap: wrap;
+  justify-content: center;
   color: var(--color-text-dark);
   line-height: 1.3;
 }
 
+.advantages-card {
+  width: 316px;
+  height: 181px;
+  padding: 32px 24px;
+  border-radius: 32px;
+  box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.38);
+  background-color: rgb(255, 255, 255);
+}
+
 .advantages-icon {
   fill: var(--color-brand-light);
+}
+
+.advantages-text {
+  text-align: center;
 }
 
 /* Our products section */
