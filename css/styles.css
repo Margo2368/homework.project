@@ -311,6 +311,21 @@ a {
 }
 
 /* Our products section */
+.our-products-container {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.our-products-list {
+  display: flex;
+  gap: 20px;
+}
+
+.our-products-items {
+  flex-basis: calc((100%-32px) / 3);
+}
+
 .our-products {
   margin-bottom: 96px;
 }
@@ -347,7 +362,31 @@ a {
   margin-bottom: 96px;
 }
 
+.map {
+  border-radius: 32px;
+}
+
 /* Footer */
+.footer {
+  background-image: url(/image/background-footer.png);
+  background-color: var(--color-brand-dark);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer-container {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-navigation,
+.footer-address {
+  display: flex;
+  flex-basis: 50%;
+  gap: 20px;
+}
+
 .date {
   color: var(--color-text-date);
   font-size: 13px;
