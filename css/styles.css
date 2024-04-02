@@ -373,6 +373,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding: 56px 0;
 }
 
 .footer-container {
@@ -385,6 +386,10 @@ a {
   display: flex;
   flex-basis: 50%;
   gap: 20px;
+}
+
+.footer-icon {
+  display: flex;
 }
 
 .date {
