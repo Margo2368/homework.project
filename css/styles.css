@@ -115,6 +115,16 @@ a {
   margin-bottom: 16px;
 }
 
+/* Hidden */
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 /* Header */
 .header {
   display: flex;
@@ -479,4 +489,23 @@ a {
 
 .footer-contact-icon {
   fill: var(--color-text-light);
+}
+
+/* Backdrop */
+.backdrop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: rgba(1, 31, 74, 0.4);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.modal {
+  height: 720px;
+  width: 680px;
+  background-color: var(--color-brand-dark);
 }
